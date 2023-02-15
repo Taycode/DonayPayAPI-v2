@@ -5,16 +5,16 @@
     "@typescript-eslint"
   ],
   "extends": [
+    "airbnb-base",
+    "airbnb-typescript/base",
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended",
-    "airbnb-base",
-    "airbnb-typescript/base"
+    "plugin:@typescript-eslint/recommended"
   ],
   "parserOptions": {
     "project": "./tsconfig.json"
   },
   "rules": {
-    "class-methods-use-this": "off",
+    "class-methods-use-this": "off"
   }
 }

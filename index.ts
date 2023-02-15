@@ -1,9 +1,6 @@
-import dotenv from 'dotenv';
 import * as http from 'http';
 import App from './src/app';
 import BaseConfig from './src/config';
-
-dotenv.config();
 
 const { PORT } = BaseConfig;
 

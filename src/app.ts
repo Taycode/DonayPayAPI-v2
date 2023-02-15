@@ -1,8 +1,8 @@
-import express from "express";
+import express from 'express';
 
-export const App = {
-    async boot() {
-        const app = express();
-        return app;
-    }
-};
+export default class App {
+  static async boot() {
+    const app = express();
+    return app;
+  }
+}
